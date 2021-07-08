@@ -1,0 +1,28 @@
+body{
+    background-image: url(image/top-banner.png);
+    background-repeat:no-repeat;
+    margin: 0;
+}
+.s_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+    width: 40%;
+    background-color: red;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.top img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.button{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    align-self: center;
+}
